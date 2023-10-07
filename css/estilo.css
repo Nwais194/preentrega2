@@ -1,143 +1,57 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-h1 {
+.classtituloUno {
     text-align: center;
-    background-color: black;
-    color: white;
-    padding: 30px;
+    padding: 50%;
+    justify-content: center;
 }
-
-nav ul {
-    background-color: #757575;
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline-flex;
-}
-
-nav a {
-    text-decoration: white;
-    padding: 10px;
+.miLogo {
     width: 150px;
 }
 
-nav li:hover {
-    background-color: black;
+.miFondo {
+    background-color: yellow;}
+
+header {
+    border-top: solid 20px color #ceb83b
 }
 
-img {
-    width: 400px;
-    height: 400px;
-    border-radius: 50;
+body {
+    font size: 30px;
+}
 
+.miLink:hover {
+    background-color: aliceblue;
+    color: #000000;
+}
+
+.colorBtn {
+    background-color: yellow;
+    color: #030303;
+    font-size: 25px;
+}
+
+.colorBtn:hover {
+    background-color: #dbcd7d;
 }
 
 .subtitulo2 {
-    color: rgba(0, 0, 0, 0.644);
-    padding: 20px;
+    padding-top: 35px;
 }
 
-
-footer {
-    width: 100%;
-    height: 200%;
-    background-color: black;
-    color: white;
-    margin-top: 40px;
+.parrafo1 {
+    padding-top: 15px;
 }
 
-footer p {
-    text-align: center;
-    padding: 50px;
+.CajaDecartas {
+    height: 50%;
 }
 
-.alinearimagen {
-    display: flex;
-    justify-content: center;
-}
-
-.flexContainer {
-    display: flex;
-    background-color: rgb(99, 98, 98);
-    padding: 20px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.c1 {
-    background-color: bisque;
-}
-
-.c2 {
-    background-color: bisque;
-}
-
-.c3 {
-    background-color: bisque;
-}
-
-.boton1 {
-    font-style: normal;
-    border: color green;
-    background-color: yellow;
-    display: flex;
-    height: auto;
-    width: 50 px;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 15px;
-    justify-content: end;
-    
-
-}
-
-.home {
-    display: flex;
-    flex-wrap: wrap;
-    min-width: 250px;
-    margin-bottom: 0px;
-}
-
-
-.contenidoWsp {
-    display: inline-block;
-    background-color: none;
-    padding: 10px 30px;
-    text-decoration: none;
-    justify-content: flex-end;
-}
-
-
-.logoWsp {
+.wsp1 {
     display: flex end;
-    height: 100px;
-    width: 100px;
+    object-fit: cover;
+    position: fixed;
+    height: 80px;
+    width: 80px;
+    bottom: 0;
+}
 
-}
-.piePagina {
-    background-color: #757575;
-    font-size: medium solid;
-    font-weight: 10px;
 
-}
-.bioHead {
-    text-align: center solid;
-    padding: 40px;
-    display: inline-block;
-    display: flex;
-    flex-wrap: wrap;
-@media screen {min-width: 250px }
-@media screen { max-width: 1200px;
-    background-color: black;
-    font-size: medium solid;
-    padding: 50%;
-    
-}
-}
